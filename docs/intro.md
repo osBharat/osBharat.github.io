@@ -17,6 +17,11 @@ bbbbbbbbb
 ccccccccccc  
 ddddddddddd  
 
+
+# linux is a good game
+who know that cool things
+
+
 # linux
 new games  
 is here
