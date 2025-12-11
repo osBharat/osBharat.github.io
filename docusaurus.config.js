@@ -46,6 +46,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'projects/bharatos',
 	  routeBasePath: '/',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
