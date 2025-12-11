@@ -61,6 +61,19 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'devopsPluginId',
+        path: 'projects/devops',
+        routeBasePath: 'devops',
+        sidebarPath: require.resolve('./sidebars.js'),
+        // ... other options
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -82,6 +95,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+	  {
+            type: 'docSidebar',
+            sidebarId: 'devopsSidebar',
+            position: 'left',
+            label: 'DevOps',
+            docsPluginId: 'devopsPluginId',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -98,6 +118,10 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/',
+              },
+              {
+                label: 'DevOps',
+                to: '/devops',
               },
             ],
           },
