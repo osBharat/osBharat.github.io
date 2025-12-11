@@ -5,26 +5,102 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #2e8555;
+:root {  /*default colors*/
+  --ifm-color-primary: #2e7de9;                                /*links color*/
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-code-font-size: 95%;                                   /*codeblock font size */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);   /*code highlighted background for white you can use hex*/
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+[data-theme='dark'] { /*dark theme colors*/
+  --ifm-color-primary: #82aaff;                                /*links color*/
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);  /*codeblock highlighted background text for dark you can use hex*/
+
+  --ifm-background-color: #100E17;                            /*body color*/
+  --ifm-background-surface-color: #1f1b2e;                    /*navigation bar color*/
+
+  --ifm-heading-color: #bcd1ff;                               /*color of heading1,2,3,4 in the markdown page*/
+  /*--ifm-navbar-search-input-background-color: #2f334d;*/    /*local search backgrund color NOT TESTED*/
+
+
+/*------------------------------ code block ----------------------------------------*/
+ .codeBlockContainer_Ckt0 { 
+    /*--ifm-color-emphasis-300: #00bb00; */    /*horizontal line between code block*/
+    background: #1f1b2e;                       /*header of the code block */
+  }
+  code { 
+    background-color: #1f1b2e;                 /*body of the multi-line and single-line code block*/
+  }
+/*----------------------------------------------------------------------------------*/
+
 }
+
+
+
+.footer--dark {  /*it same on both dark-mode and light-mode*/
+  --ifm-footer-background-color: #1f1b2e;  /*footer background color*/
+  /*source : https://github.com/LazyVim/lazyvim.github.io/blob/main/src/css/custom.css#L47*/
+  /*source : https://docusaurus.community/knowledge/design/css/variables/#where-should-i-set-css-variables*/
+}
+
+
+/*------------------------ if @easyops-cn/docusaurus-search-local installed ----------------------------*/
+
+:root {
+ .navbar__search-input {
+    width: 20rem;                         /*how long search bar would appear*/
+    border-radius: 6px;                   /*corner of the border should be little round*/
+  }
+  --search-local-modal-width: 600px;      /*search menu width*/
+}
+
+
+[data-theme='dark'] {
+  --search-local-hit-background:#1f1b2e;  /*background color of unselected menu item*/
+}
+
+
+  /*--search-local-modal-background:#cc0000;*/                /*background board*/
+  /*--search-local-modal-shadow:0 5px 10px 10px #ffc0cb;*/    /*main outer box background shadow */
+  /*--search-local-hit-background:black;  */                  /*unselected text background*/
+  /*--search-local-hit-shadow:0 5px 1px 1px blue;*/           /*selected and unselected menu background shadow */
+  /*--search-local-hit-color:pink;*/                          /*text color of unselected menu foreground*/
+  /*--search-local-highlight-color:red;*/                     /*background color of the selected menu and searched text*/
+  /*--search-local-muted-color:yellow;*/                      /*page name forground color billow searched text*/
+  /*--search-local-hit-active-color:green;*/                  /*forground color of the selected menu text*/
+  /*--search-local-input-active-border-color:red;*/           /*search box border color on navigation bar*/
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* ---- change codeblock color only for dark theme unofficial ---------
+html[data-theme='dark'] .theme-code-block,
+html[data-theme='dark'] code,
+html[data-theme='dark'] pre {
+  background-color: #cc0000 !important;
+  color: #c8d3f5 !important;
+  border-radius: 6px;
+}
+*/
+
+
+/* --------------------- : source : --------------------- 
+https://docusaurus.community/knowledge/design/css/variables/
+*/
+
+
