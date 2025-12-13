@@ -40,6 +40,34 @@ const config = {
     locales: ['en'],
   },
 
+	
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+	  hashed: true,                             // Setting to `true` is recommended for long-term caching of the index file
+          docsDir: ['projects/bharatos', 'projects/devops'], // above 'hashed: true' hash these directories
+          indexDocs: true,                          // Set to `false` if you do not want your `/docs` directory to be searchable.
+          docsRouteBasePath: ['/', 'devops'],       // for docs-only mode, this needs to be the same as `routeBasePath` in your `@docusaurus/preset-classic`
+	                                            // (Slash at the beginning is not required)
+          indexBlog: false,                         // Set to `false` if you do not want your `/blog` directory to be searchable.
+          // blogRouteBasePath: "/blog",            // (Slash at the beginning is not required)
+          indexPages: false,                        // if you have standalone Markdown pages outside of your `/docs` or `/blog` directories
+	                                            // that you want to be searchable. set `true` to index other pages.
+          highlightSearchTermsOnTargetPage: true,   // Whether to highlight search terms on the target page after pressing `enter` key
+          // searchResultLimits: 8,                 // Limit the number of search results shown in the search box after typing query in the search bar
+          searchResultContextMaxLength: 70,         // Set the maximum length of characters of each search result context to show
+          // searchBarPosition: "auto",             // which side search menu should appear when you type anything in
+	                                            // the search box {"auto" | "left" | "right"}
+          // removeDefaultStemmer: false,           // hard searching. typos are not allowd. fuzzy search is not allowed
+          searchBarShortcutHint: false,             // Disable it if you need to hide the hint while the shortcut is still enabled
+          // searchBarShortcutKeymap: "mod+k",      // key binding to launch search (if you will set single key like 's' you can't type that
+	                                            // key inside the search bar to search something)
+      }),
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -104,6 +132,7 @@ const config = {
             label: 'DevOps',
             docsPluginId: 'devopsPluginId',
           },
+          { type: 'search', position: 'right' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
