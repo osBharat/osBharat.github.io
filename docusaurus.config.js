@@ -85,6 +85,21 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        svgr: {            
+          svgrConfig: {
+            svgo: true,    
+            svgoConfig: {
+              plugins: [   
+                {
+                  name: "removeUnknownsAndDefaults",
+                  params: {
+                    unknownAttrs: false,
+                  }
+                },
+              ],
+            },
+          },
+        },
       }),
     ],
   ],
