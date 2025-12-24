@@ -86,6 +86,15 @@
 
 
 
+/*---------------------------Custom CSS for sidebar navigation buttons-------------------------------------*/
+.sidebar-nav-link {
+  margin: 0.5rem 0.5rem 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+
 
 
 /* ---- change codeblock color only for dark theme unofficial ---------

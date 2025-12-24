@@ -76,7 +76,7 @@ const config = {
         docs: {
           path: 'projects/bharatos',
 	  routeBasePath: '/',
-          sidebarPath: './sidebars.js',
+          sidebarPath: './sidebar/sidebars-bharatos.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -111,7 +111,7 @@ const config = {
         id: 'devopsPluginId',
         path: 'projects/devops',
         routeBasePath: 'devops',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: require.resolve('./sidebar/sidebars-devops.js'),
         // ... other options
       },
     ],
