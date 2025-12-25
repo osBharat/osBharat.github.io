@@ -15,6 +15,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;                                   /*codeblock font size */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);   /*code highlighted background for white you can use hex*/
+  --ifm-navbar-height: 3rem;                                   /* Reduced navbar height */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
