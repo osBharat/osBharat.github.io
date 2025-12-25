@@ -82,6 +82,7 @@ const config = {
           editUrl:
             'https://github.com/osBharat/osBharat.github.io/tree/main/',
         },
+	blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },

@@ -83,7 +83,7 @@ export default function ViewportFullscreenSvg({ SvgComponent }) {
             position: "fixed",
             inset: 0,
             zIndex: 9999,
-            background: "var(--ifm-background-color)",
+            background: "var(--ifm-color-emphasis-100)",
             display: "grid",
             placeItems: "center"
           }}
