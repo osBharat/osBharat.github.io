@@ -1,4 +1,5 @@
 ---
+slug : /xdg
 sidebar_position: 1
 ---
 
