@@ -21,7 +21,7 @@ Git supports XDG by default but if there is no any git configuration related fil
 
 # 1️⃣ environment variable
 
-first set [XDG Base Directory Specification](intro) then set billow environment variable in `$HOME/.bash_profile` or `$HOME/.zprofile`
+first set [XDG Base Directory Specification](/xdg) then set billow environment variable in `$HOME/.bash_profile` or `$HOME/.zprofile`
 ```bash
 export GIT_CONFIG_GLOBAL="$XDG_CONFIG_HOME/git/config"
 ```
