@@ -14,3 +14,7 @@ theme_background = false
 truecolor = false
 ```
 ![btop_after](@site/projects/bharatos/config/_assets/btop2.png)
+
+## system
+- editable themes present at `/usr/share/btop/themes`
+- You can also tweak these configs in btop UI it can generate a editable config file for you in `~/.config/btop/btop.conf`
