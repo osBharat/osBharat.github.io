@@ -21,3 +21,6 @@ this is the intro of bharatos
 ## ZOOMABLE svg
 <FullscreenZoomSvg SvgComponent={MySvgImage} />
 
+```bash title="🔴 🟡 🟢"
+echo "Hello world"
+```
