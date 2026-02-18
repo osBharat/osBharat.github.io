@@ -12,6 +12,7 @@ Make btop look good
 color_theme = "/usr/share/btop/themes/flat-remix.theme"
 theme_background = false
 truecolor = false
+rounded_corners = false
 ```
 ![btop_after](@site/projects/bharatos/config/_assets/btop2.png)
 
