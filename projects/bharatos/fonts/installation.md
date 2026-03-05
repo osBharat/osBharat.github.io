@@ -47,13 +47,15 @@ fc-cache -fv        # Rebuild and refresh the font cache (forcefully verbose)
 ## Verifying Installed Fonts
 ```perl  title="🔴 🟡 🟢"
 fc-list                    # List all known fonts (full details)
-fc-list | grep "Font Name" # Search for a specific font
+fc-list | grep "Font Name" # Search for a specific installed font
 
 fc-list : family           # Font family name
 fc-list : style            # Regular / Bold / Italic etc
 fc-list : file             # Font file path
 fc-list : spacing          # is it monospace or not. important for terminal
 fc-list : fullname         # Full face name
+
+fc-list : family style     # combine both
 ```
 
 ---
