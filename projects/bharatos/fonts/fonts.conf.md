@@ -97,3 +97,4 @@ sidebar_position: 3
 
 ```
 
+look at the default values here : https://wiki.archlinux.org/title/Font_configuration

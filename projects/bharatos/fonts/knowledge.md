@@ -16,8 +16,18 @@ The serifs help guide the eye across a printed page.
 Sans-serif → "sans" literally means without in French, so no decorative strokes. Better for screens — websites, apps, UIs. Cleaner and more legible at screen resolutions.
 
 
-![MyImage|5](@site/projects/bharatos/fonts/_assets/serif_vs_sens-serif.png)
+![MyImage](@site/projects/bharatos/fonts/_assets/serif_vs_sens-serif.png)
 
+---
+## hunting can mess up with font ligatures
+
+example :   
+
+hinting false:   
+![MyImage](@site/projects/bharatos/fonts/_assets/hinting_false.png)   
+
+hinting_full:   
+![MyImage](@site/projects/bharatos/fonts/_assets/hinting_full.png)
 
 ---
 ## installed font image
