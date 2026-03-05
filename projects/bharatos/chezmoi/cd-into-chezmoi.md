@@ -6,7 +6,7 @@ sidebar_position: 2
 there are two ways
 
 ## 1️⃣. `chezmoi cd` {#chezmoi-cd}
-```bash
+```bash title="🔴 🟡 🟢"
 ~/.config ❯ chezmoi cd   ## cd into chezmoi source directory and enter into subshell $SHELL
 ~/.local/share/chezmoi ❯ exit  ## exit will bring you back to your previously working directory
 ~/.config ❯
@@ -27,7 +27,7 @@ Conceptually it behaves like :
 
 
 ## 2️⃣. `cd $(chezmoi source-path)` {#chezmoi-source-path}
-```bash
+```bash title="🔴 🟡 🟢"
 ~/.config ❯ cd $(chezmoi source-path) # cd into `~/.local/share/chezmoi` in linux
 ~/.local/share/chezmoi ❯ exit  # will exit the terminal
 ```
