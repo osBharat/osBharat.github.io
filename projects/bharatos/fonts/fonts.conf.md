@@ -12,8 +12,8 @@ sidebar_position: 3
   <!-- 1. GLOBAL RENDERING SETTINGS: Controls how fonts look on your screen -->
         <match target="font">
           <edit name="antialias"      mode="assign"> <bool>true</bool>         </edit>
-          <edit name="hinting"        mode="assign"> <bool>false</bool>        </edit>
-          <edit name="hintstyle"      mode="assign"> <const>hintnone</const> </edit>
+          <edit name="hinting"        mode="assign"> <bool>true</bool>        </edit>
+          <edit name="hintstyle"      mode="assign"> <const>hintfull</const> </edit>
           <edit name="rgba"           mode="assign"> <const>rgb</const>        </edit>
           <edit name="lcdfilter"      mode="assign"> <const>lcddefault</const> </edit>
         </match>
@@ -102,5 +102,5 @@ sidebar_position: 3
 ## (for parameters look at here) other source 
 
 archlinux font config : https://wiki.archlinux.org/title/Font_configuration   
-easy way to setup     : https://github.com/davgar99/arch-linux-font-improvement-guide
+easy way to setup     : https://github.com/davgar99/arch-linux-font-improvement-guide   
 how dose fonts works  : https://youtu.be/BfEvIjTQkIE   
