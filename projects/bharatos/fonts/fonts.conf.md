@@ -97,4 +97,10 @@ sidebar_position: 3
 
 ```
 
-look at the default values here : https://wiki.archlinux.org/title/Font_configuration
+---
+
+## (for parameters look at here) other source 
+
+archlinux font config : https://wiki.archlinux.org/title/Font_configuration   
+easy way to setup     : https://github.com/davgar99/arch-linux-font-improvement-guide
+how dose fonts works  : https://youtu.be/BfEvIjTQkIE   

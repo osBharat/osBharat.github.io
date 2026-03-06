@@ -50,13 +50,3 @@ yazi /usr/share/fonts/TTF/
 https://fonts.google.com   
 https://www.programmingfonts.org/
 
----
-
-## other source 
-
-how dose fonts works
-https://youtu.be/BfEvIjTQkIE   
-archlinux font config
-https://wiki.archlinux.org/title/Font_configuration   
-easy way to setup
-https://github.com/davgar99/arch-linux-font-improvement-guide
