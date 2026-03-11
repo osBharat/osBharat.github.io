@@ -38,9 +38,12 @@ this is how Arch enables it via symlinks :
 ## Font Cache
 
 After adding new fonts to any of the above directories, you must refresh the font cache so the system recognizes them.
-```perl  title="🔴 🟡 🟢"
-fc-cache -fv        # Rebuild and refresh the font cache (forcefully verbose)
-```
+
+| Use Case | Command |
+|---|---|
+| Fonts installed by package manager (in `/usr/share/fonts/`) | `sudo fc-cache -fv` |
+| Fonts manually copied to `~/.local/share/fonts/` | `fc-cache -fv` |
+| Both system and user fonts changed | `sudo fc-cache -fv` (covers both) |
 
 ---
 
